@@ -1,0 +1,75 @@
+body{
+	margin: 0;
+	background: linear-gradient(transparent 9px, blue 9px);
+	background-size: 1px 10px;
+}
+
+/*2. float*/
+.grid-container{
+	width: 960px;
+	height: 100vh;
+	margin-left: auto;
+	margin-right: auto;
+	/*columns 12: 80px*12*/
+	background: linear-gradient(90deg, hsla(180, 53%, 72%, 0.5) 50%, hsla(0, 0%, 20%, 0.5) 50%);
+	background-size: 160px 1px;
+} 
+
+.box{
+	width: 320px;
+	height: 320px;
+	color: #fff;
+	text-align: center;	
+	line-height: 320px;
+	
+
+}
+.box.primary{
+	background: #000;
+	float: right;
+
+}
+.box.secondary{
+	background: #454545;
+	float: right;
+}
+.box.tertiary{
+	background: #767676;
+	float: right;
+
+}
+
+
+/*1. insline block*/
+
+/*.grid-container{
+	width: 960px;
+	height: 100vh;
+	margin-left: auto;
+	margin-right: auto;
+	background: linear-gradient(90deg, hsla(180, 53%, 72%, 0.5) 50%, hsla(0, 0%, 20%, 0.5) 50%);
+	background-size: 160px 1px;
+	font-size: 0;
+} 
+
+.box{
+	width: 320px;
+	height: 320px;
+	color: #fff;
+	text-align: center;	
+	line-height: 320px;
+	display: inline-block;
+	font-size: 16px;
+
+}
+.box.primary{
+	background: #000;
+
+}
+.box.secondary{
+	background: #454545;
+}
+.box.tertiary{
+	background: #767676;
+
+}*/

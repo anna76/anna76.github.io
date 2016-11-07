@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: "Spoqa Han Sans", Dotum, Gulim, Sans-Serif;
+  font-size: 87.5%;
+  line-height: 1.5;
+  background-image: url("../images/leading_21px.gif");
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  color: #333741;
+  letter-spacing: -0.020em;
+  font-weight: normal;
+}
+
+h1,h2,h3,h4,h5,h6 { 
+  margin-top: 0;
+  letter-spacing: -0.050em;
+ }
+h6 {
+  font-size: 1.313em;
+  line-height: 1.14; /* 레딩 칸 개수: 1 */
+  margin-bottom: 1.2em;
+  color: #787f94;
+  font-weight: normal;
+}
+h5 {
+  font-size: 1.723969em;
+  line-height: 1.74; /* 레딩 칸 개수: 2 */
+  margin-bottom: 0.9em;
+  color: #787f94;
+  font-weight: normal;
+} 
+h4 {
+  font-size: 2.263571297em;
+  line-height: 1.33; /* 레딩 칸 개수: 2 */
+  margin-bottom: 0.7em;
+  color: #787f94;
+  font-weight: normal;
+}
+h3 {
+  font-size: 2.972069112961em;
+  line-height: 1.01; /* 레딩 칸 개수: 2 */
+  margin-bottom: 0.5em;
+  font-weight: lighter;
+}
+h2 {
+  font-size: 3.902326745317793em;
+  line-height: 1.15;
+  margin-bottom: 0.4em;
+  font-weight: lighter;
+}
+h1 {
+  font-size: 5.123755016602262em;
+  line-height: 1.17;
+  margin-bottom: 0.3em;
+  font-weight: lighter;
+} 

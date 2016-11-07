@@ -1,0 +1,207 @@
+<<<<<<< HEAD
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+
+html{
+	font-size: 1.5em;
+}
+body{
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Nanum Myeongjo', serif;
+	text-align: center;
+	color: #fed700;
+	line-height: 1.5;
+	/*background-size: 100% 1.5em;
+	background-image: linear-gradient(transparent 95%, #008aff 95%);*/
+	background: #000 url("../images/bg2.jpg") no-repeat center top; 
+}
+
+.font_area{
+	display: inline-block;
+	margin: 0 auto;
+	background: #000;
+	opacity: 0.9;
+	padding: 1.5em 2em;
+}
+h1, h2, h3, h4, h5{
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+h1 {
+  font-size: 7.59em;
+
+}
+h2 {
+  font-size: 5.0625em;
+}
+
+h3 {
+  font-size: 3.375em;
+  line-height: 1.333;
+  padding-bottom: 0.208em;
+  border-bottom: 2px solid #fed700;
+}
+
+h4 {
+  font-size: 2.25em;
+}
+
+h5 {
+  font-size: 1.5em;
+}
+
+.sub_txt {
+	letter-spacing: -0.2px;
+	margin-top: 1.5em;
+	font-size: 0.750em;
+	font-weight: normal;
+}
+=======
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+
+html{
+	font-size: 1.5em;
+}
+body{
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Nanum Myeongjo', serif;
+	text-align: center;
+	color: #fed700;
+	line-height: 1.5;
+	/*background-size: 100% 1.5em;
+	background-image: linear-gradient(transparent 95%, #008aff 95%);*/
+	background: #000 url("../images/bg2.jpg") no-repeat center top; 
+}
+
+.font_area{
+	display: inline-block;
+	margin: 0 auto;
+	background: #000;
+	opacity: 0.9;
+	padding: 1.5em 2em;
+}
+h1, h2, h3, h4, h5{
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+h1 {
+  font-size: 7.59em;
+
+}
+h2 {
+  font-size: 5.0625em;
+}
+
+h3 {
+  font-size: 3.375em;
+  line-height: 1.333;
+  padding-bottom: 0.208em;
+  border-bottom: 2px solid #fed700;
+}
+
+h4 {
+  font-size: 2.25em;
+}
+
+h5 {
+  font-size: 1.5em;
+}
+
+.sub_txt {
+	letter-spacing: -0.2px;
+	margin-top: 1.5em;
+	font-size: 0.750em;
+	font-weight: normal;
+}
+>>>>>>> origin/master

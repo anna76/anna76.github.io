@@ -1,0 +1,27 @@
+
+body{
+	color: #333;
+}
+.recruit-required-list{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+h5 {
+	color: red;
+}
+.recruit-required-list dt {
+	color: red;
+}
+.recruit-required-list dt span {
+	color: #333;
+}
+.recruit-required-list dt img{
+	float: left;
+	margin-right: 10px;
+}	
+.recruit-required-list dd{
+	clear: left;
+	margin-left: 0;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}	

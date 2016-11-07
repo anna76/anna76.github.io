@@ -1,0 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+body{ font-family: "Spoqa Han Sans", Dotum, Gulim, Sans-Serif; font-size: 0.875em; line-height: 1.5; background-image: url("../images/leading_21px.gif"); }
+h1,h2,h3,h4,h5,h6 { letter-spacing: -0.050em; }
+h6 { font-size: 0.875em; line-height: 1.71;/* 레딩 칸 개수: 1 */ margin-bottom: 1.714285714285714em; color: #787f94; font-weight: normal; }
+h5 { font-size: 1.148875em; line-height: 2.61; /* 레딩 칸 개수: 2 */ margin-bottom: 1.305625068001306em; color: #787f94; font-weight: normal; } 
+h4 { font-size: 1.508472875em; line-height: 1.99; /* 레딩 칸 개수: 2 */ margin-bottom: 0.9943831439461581em; color: #787f94; font-weight: normal; }
+h3 {
+  font-size: 1.980624884875em;
+  line-height: 1.52; /* 레딩 칸 개수: 2 */
+  margin-bottom: 0.7573367432948653em;
+  color: #787f94;
+  font-weight: normal;
+}
+h2 {
+  font-size: 2.600560473840875em;
+  line-height: 1.15; /* 레딩 칸 개수: 2 */
+  margin-bottom: 0.5767987382291434em;
+  font-weight: lighter;
+}
+h1 {
+  font-size: 3.414535902153069em;
+  line-height: 1.32;
+  margin-bottom: 0.439298353563704em;
+  font-weight: lighter;
+}
+
+p {
+  margin-bottom: 1.5em;
+  color: #333741;
+  letter-spacing: -0.020em;
+  font-weight: normal;
+}
+
+/* 요소를 화면 가운데 배치 */
+.page-container{
+	margin: 0 auto;
+	width: 960px;
+	height: 100vh;
+	/* 박스 쉐도우(Drop-Shadow) */
+	/* box-shadow: x y blur spread color; */
+	/* box-shadow: 0 0 10px hsla(0, 0%, 47%, 0.3); */
+}
+.page-title {
+  padding-top: 4.5em;
+  text-align: Center;
+}
+.content_area {
+  margin: 0 5em;
+}
+.content_area img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: bottom;
+}
+
+.page-title h4{
+  margin-bottom: 2.983149431838474em;
+}
+
+.content_01, .content_02 .etc{
+  text-align: left;
+}
+.content_01 {
+  margin-top: 4.5em;
+}
+.list_group01 {
+  margin-top: 3em;
+}
+.list_group01 li:first-child {
+  border-top: 1px solid #d9e0e9;
+}
+.list_group01 li {
+  border-bottom: 1px solid #d9e0e9;
+  padding: 1.5em 0;
+  overflow: auto;
+}
+.list_group01 img{
+  float: left;
+  width: 12.2%;
+  margin-right: 4%;
+}
+.list_group01 .li_txt {
+	width: 83.6%;
+	float: left;
+}
+.list_group01 .li_txt p{
+  margin-bottom: 0;
+}
+.list_group01 h5 {
+  margin-bottom: 0;
+}
+.content_02{
+	margin-top: 4.786em;
+}
+.list_group02 {
+  padding-bottom: 3em;
+  border-bottom: 1px solid #d9e0e9;
+}
+.list_group02 dt {
+  font-size: 1.148875em;
+  line-height: 2.61; /* 레딩 칸 개수: 2 */
+  color: #787f94;
+  font-weight: normal;
+} 
+.etc {
+  padding: 1.5em 0 6em 0;
+}
+.etc h6 {
+  float: left;
+}
+.etc p{
+  float: right;
+  color: #44cb83;
+}

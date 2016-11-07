@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="UTF-8">
+	<title>Definition</title>
+	<link
+    rel="stylesheet"
+    href="http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css">
+  <!-- 분리된 「외부 스타일」 문서 링크 -->
+  <link rel="stylesheet" href="css/typography-practice.css">
+</head>
+<body>
+	<h1>HTML 문서 구조화에서 사용되는 목록들</h1>
+	<h2>비순차 목록</h2>
+	<p>Unordered List</p>
+	<ul>
+	<li>item</li>
+	<li>item</li>
+	<li>item</li>
+	</ul>
+
+	<!-- Preserved Text -->
+	<pre>
+	&lt;ul&gt;
+	&lt;li&gt;item&lt;/li&gt;
+	&lt;li&gt;item&lt;/li&gt;
+	&lt;li&gt;item&lt;/li&gt;
+	&lt;/ul&gt;
+	</pre>
+
+	<h2>순차 목록</h2>
+	<p>Ordered List</p>
+	<ol>
+		<li>list</li>
+		<li>list</li>
+		<li>list</li>
+	</ol>
+
+<!-- ol>li{item}*3|e -->
+	<pre>
+	&lt;ol&gt;
+		&lt;li&gt;item&lt;/li&gt;
+		&lt;li&gt;item&lt;/li&gt;
+		&lt;li&gt;item&lt;/li&gt;
+	&lt;/ol&gt;
+	</pre>
+
+	<h2>정의 목록</h2>
+	<p>Definition List</p>
+	<dl>
+		<dt>종이 호랑이</dt>
+		<dd>나무틀이나 대오리를 결어 만든 틀에 종이를 여러 겹 발라 만든 호랑이의 형상. </dd>
+		<dt>쑥호랑이</dt>
+		<dd>쑥, 대쪽, 헝겊 따위로 만든 호랑이 형상. 여자들이 단오에 이것을 만들어 머리에 이면 재액을 물리친다고 한다.</dd>
+	</dl>
+	<h3>HTML Code</h3>
+	<pre>
+	&lt;dl&gt;
+		&lt;dt&gt;종이호랑이&lt;/dt&gt;
+		&lt;dd&gt;나무틀이나 대오리를 결어 만든 틀에 종이를 여러 겹 발라 만든 호랑이의 형상.&lt;/dd&gt;
+		&lt;dt&gt;쑥호랑이&lt;/dt&gt;
+		&lt;dd&gt;쑥, 대쪽, 헝겊 따위로 만든 호랑이 형상. 여자들이 단오에 이것을 만들어 머리에 이면 재액을 물리친다고 한다.&lt;/dd&gt;
+	&lt;/dl&gt;</pre>
+
+</body>

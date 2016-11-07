@@ -1,0 +1,55 @@
+body{
+	
+	}
+
+.hc-section{
+	margin: 3em;
+	}
+.hc-table {
+	/*셀 사이 간격을 접어버림*/
+	margin: 0 auto;
+	border-collapse: collapse;
+	font-family: "YouandiModernTR";
+	border-top: 2px solid #555;
+	width: 80%;
+	}
+.hc-table, .hc-table th, .hc-table td{
+	border-bottom: 1px solid #e0e0e0;
+	}		
+.hc-table th, .hc-table td{
+	padding: 0.6666em 0 0.6666em 2.0822em;
+	}
+.hc-table th{
+	/*글 덩어리를 왼쪽으로 정렬*/
+	color: #333;
+	font-weight: normal;
+	font: 15px/1.5 "YouandiModernTB";
+	text-align: left;
+	border-right: 1px solid #e0e0e0;
+	vertical-align: top;
+	}
+.hc-table td{
+	border-right: 1px solid #e0e0e0;
+	color: #767676;
+	font: 13px/1.5 "YouandiModernTR";
+	}	
+.hc-table th:last-child, .hc-table td:last-child{
+	border-right: 0;
+	}	
+ul {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.hc-table li::before{
+	content:'- ';
+}
+.hc-table a{
+	color: #3a86db;
+	text-decoration: none;
+}
+.hc-table a:hover{
+	padding-bottom: 1px;
+	border-bottom: 1px solid currentColor;
+}
