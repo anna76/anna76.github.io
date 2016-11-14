@@ -1,0 +1,86 @@
+@charset "utf-8";
+@import url(http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+
+/**
+ * --------------------------------
+ * Box Layout
+ * ----------------------------- */
+
+body{
+  font-family: 'Spoqa Han Sans','Sans-serif';
+}
+
+.products{ padding-top: 80px; }
+
+/*float 적용된 자식 요소를 감싼 부모 요소에 class속성 값으로 설정함에 따라 
+float 적용된 자식 요소를 감쌀 수 있게 된다. 즉, 자식 요소만큼 높이가 생산되어 
+뒤 따르는 요소들에게 float 영향을 끼치지 않는다.*/
+.clearfix::after{
+	content: '';
+	clear: both;
+	display: block;
+}
+img{
+	vertical-align: top;
+}
+
+
+.tinbox_020{
+  background: hsla(54, 49%, 73%, 1);
+  float: left;
+  text-align: center;
+  width: 320px;
+  height: 320px;
+}
+.tinbox_021{
+  background: hsla(85, 34%, 80%, 1);
+  float: left;
+  width: 320px;
+  height: 320px;
+  text-align: center;
+}
+.tinbox_022{
+  background: hsla(142, 14%, 78%, 1);
+  float: left;
+  width: 320px;
+  height: 320px;
+  text-align: center;
+}
+
+.tinbox_020>img, .tinbox_021>img, .tinbox_022>img {
+	margin-top: 30px;
+}
+
+.product-headline{
+	margin-bottom: 0;
+	font-size: 18px;
+	margin-top: 10px;
+}
+.product-description{
+	font-size: 14px;
+	margin-top: 10px;
+	letter-spacing: -0.02;
+}
+
+.dogs{ padding-top: 40px; }
+
+.spitz_01{
+  float: left;
+  text-align: center;
+  width: 240px;
+  height: 240px;
+}
+.spitz_02{
+  float: left;
+  text-align: center;
+  width: 240px;
+  height: 240px;
+}
+.spitz_04{
+  float: left;
+  text-align: center;
+  width: 480px;
+  height: 240px;
+}
+
