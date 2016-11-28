@@ -1,0 +1,131 @@
+/*! arbuzz.css © yamoo9.net, 2016 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400i');
+
+html{
+  background-color: #e5e5e5;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.v-space {
+  margin-bottom: 20px;
+}
+.v-space-top {
+  margin-top: 20px;
+}
+
+.product {
+  	height: 300px;
+}
+
+.shoes {
+	position: relative;
+	background-image: url("../images/banner/shoes.jpg");	
+}
+.leather-bags {
+	position: relative;
+	background-image: url("../images/banner/leather-bags.jpg");	
+}
+.collection {
+	position: relative;
+	background-image: url("../images/banner/collection.jpg");	
+}
+
+.middle-txt{
+	position: absolute;		
+	width: 100%;
+}
+.shoes .middle-txt{	
+	text-align: center;
+	top: 200px;
+}
+.product-title {	
+	font-weight: 700;
+	font-size: 30px;
+	color: #3c3d48;
+	letter-spacing: 1.5px;
+}
+
+.sale-txt {
+	font-family: 'PT Serif', serif;
+	text-align: center;
+	font-size: 15px;
+	color: #5b5d69;			
+}
+
+.leather-bags .middle-txt{	
+	top: 50px;
+	left: 40px;
+}
+.txt-area {
+	position: absolute;
+}
+.collection .txt-area {
+	right: 0;
+	width: 300px;
+	height: 300px;
+}
+.collection .middle-txt{
+	text-align: center;	
+	top: 50%;
+	margin-top: -60px;
+}
+
+.more-btn {
+	margin: 0 auto;
+	background-color: #e36556;
+	text-align: center;
+	width: 170px;
+	height: 43px;
+	font-size:  10px;
+	font-weight: 700;
+	color: #fff;
+	margin-top: 23px;
+	letter-spacing: 3px;
+	line-height: 43px;
+	border-radius: 3px;
+}	
+
+
+.woman {
+	position: relative;
+	background-image: url("../images/banner/woman.jpg");	
+}
+.hx2 {
+  height: 620px;
+}
+
+.woman .middle-txt{	
+	position: absolute;
+	top: 50%;
+	margin-top: -60px;
+	text-align: center;
+}
+
+.curation-menu {
+	height: 40px;
+	background-color: #fff;
+	text-align: center;
+	line-height: 40px;
+}
+.curation-menu ul li {
+	display: inline-block;
+	margin: 0 36px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #3c3d48;
+	letter-spacing: 0.5px;
+}
+
+.dress {
+	background-color: #fff;
+	height: 410px;
+}
+.dress-img {
+	height: 320px;
+	position: relative;
+}
